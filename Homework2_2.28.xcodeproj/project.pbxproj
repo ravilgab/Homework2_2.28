@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		F18A73E8285BB78E007AFC94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18A73E7285BB78E007AFC94 /* AppDelegate.swift */; };
 		F18A73EA285BB78E007AFC94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18A73E9285BB78E007AFC94 /* SceneDelegate.swift */; };
-		F18A73EC285BB78E007AFC94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18A73EB285BB78E007AFC94 /* ViewController.swift */; };
 		F18A73EF285BB78E007AFC94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18A73ED285BB78E007AFC94 /* Main.storyboard */; };
 		F18A73F1285BB790007AFC94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18A73F0285BB790007AFC94 /* Assets.xcassets */; };
 		F18A73F4285BB790007AFC94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18A73F2285BB790007AFC94 /* LaunchScreen.storyboard */; };
+		F18A7401285E7D12007AFC94 /* TrafficLightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18A7400285E7D12007AFC94 /* TrafficLightViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F18A73E4285BB78E007AFC94 /* Homework2_2.28.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework2_2.28.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18A73E7285BB78E007AFC94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F18A73E9285BB78E007AFC94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F18A73EB285BB78E007AFC94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F18A73EE285BB78E007AFC94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F18A73F0285BB790007AFC94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F18A73F3285BB790007AFC94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F18A73F5285BB790007AFC94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18A7400285E7D12007AFC94 /* TrafficLightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,47 @@
 		F18A73E6285BB78E007AFC94 /* Homework2_2.28 */ = {
 			isa = PBXGroup;
 			children = (
-				F18A73E7285BB78E007AFC94 /* AppDelegate.swift */,
-				F18A73E9285BB78E007AFC94 /* SceneDelegate.swift */,
-				F18A73EB285BB78E007AFC94 /* ViewController.swift */,
-				F18A73ED285BB78E007AFC94 /* Main.storyboard */,
-				F18A73F0285BB790007AFC94 /* Assets.xcassets */,
-				F18A73F2285BB790007AFC94 /* LaunchScreen.storyboard */,
-				F18A73F5285BB790007AFC94 /* Info.plist */,
+				F18A73FE285E75F8007AFC94 /* ViewControllers */,
+				F18A73FB285E75CC007AFC94 /* Storyboards */,
+				F18A73FF285E760C007AFC94 /* Support */,
+				F18A73FD285E75E7007AFC94 /* Resources */,
 			);
 			path = Homework2_2.28;
+			sourceTree = "<group>";
+		};
+		F18A73FB285E75CC007AFC94 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F18A73ED285BB78E007AFC94 /* Main.storyboard */,
+				F18A73F2285BB790007AFC94 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F18A73FD285E75E7007AFC94 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F18A73F0285BB790007AFC94 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F18A73FE285E75F8007AFC94 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F18A7400285E7D12007AFC94 /* TrafficLightViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F18A73FF285E760C007AFC94 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F18A73E7285BB78E007AFC94 /* AppDelegate.swift */,
+				F18A73E9285BB78E007AFC94 /* SceneDelegate.swift */,
+				F18A73F5285BB790007AFC94 /* Info.plist */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +170,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F18A73EC285BB78E007AFC94 /* ViewController.swift in Sources */,
 				F18A73E8285BB78E007AFC94 /* AppDelegate.swift in Sources */,
+				F18A7401285E7D12007AFC94 /* TrafficLightViewController.swift in Sources */,
 				F18A73EA285BB78E007AFC94 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RR2792TYH2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Homework2_2.28/Info.plist;
+				INFOPLIST_FILE = Homework2_2.28/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +349,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RR2792TYH2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Homework2_2.28/Info.plist;
+				INFOPLIST_FILE = Homework2_2.28/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
